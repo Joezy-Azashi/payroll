@@ -1,0 +1,1 @@
+export const SET_NEWPASSWORD = "set_newpassword"

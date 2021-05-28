@@ -1,0 +1,198 @@
+.lead-title {
+    color: #cf4f1f;
+    /* padding: 2rem 0 0 3rem; */
+}
+
+.ending-buttons{
+    padding: 0 10rem 0 10rem;
+}
+
+.card {
+    height: 100vh;
+}
+
+.forgotpassword{
+  float: left ;
+  margin-left: 15px;
+  color: #cf4f1f;
+}
+.forgotpassword:hover{
+  text-decoration: none;
+  color: #cf4f1f;
+}
+.salarydetailtitle{
+    text-align: center;
+}
+.paysliptitle{
+    text-align: center;
+    background-color: #cf4f1f;
+    color: white;
+}
+.dialog-width{
+    width: 500px !important
+}
+.slipcolumns{
+    padding: 20px 70px !important;
+}
+.slipcolumnsSideTop{
+    padding: 0 50px !important;
+}
+.slipcolumnsSide{
+    padding: 0 70px !important;
+}
+.employeesalary-savebtn{
+    background-color: #cf4f1f !important;
+    color: white !important;
+}
+.payslip-savebtn{
+    background-color: #cf4f1f !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 992px) {
+    .tax-container {
+      width: 100% !important;
+    }
+  }
+
+  .masterPayroll{
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .masterPayroll {
+      width: 70%;
+    }
+  }
+
+
+.prePrint {
+    height: auto !important;
+    max-width: 600px !important;
+}
+
+/*Print Dialog*/
+@media print {
+    .printDialog {
+        max-width: 100% !important;
+    }
+    .employeesalary-savebtn{
+        display: none !important;
+    }
+    @page {
+        size: landscape;
+    }
+    .printDialog:last-child {
+        page-break-after: auto;
+   }
+}
+.trow .MuiTableCell-root{
+    padding: 16px 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .slipcolumns{
+        padding: 0 !important;
+    }
+    .addallowancebtn{
+      width: 100% !important;
+    }
+    .adddeductionbtn{
+      width: 100% !important;
+    }
+    .addnewbtn{
+      width: 100% !important;
+    }
+}
+  .label-length{
+    width: 300px;
+  }
+  .label-length2{
+    width: 210px;
+    height: 10px !important;
+  }
+
+  .deduction-button{
+    margin: 30px  auto !important;
+  }
+
+  .displayName-vanish{
+    display: none !important;
+  }
+
+  .in-progress-button{
+    background-color: rgb(142, 153, 38) !important;
+    width: 109px !important;
+  }
+  .approve-button{
+    width: 109px !important;
+  }
+    .tableBorder{
+    border: 2px solid #dadada
+    }
+    .cellBorder{
+        border-bottom: 2px solid #dadada;
+        border-top: 2px solid #dadada
+    }
+    .net-pay-bg{
+        color: black !important;
+        background-color: #cf4f1f !important;
+    }
+    .net-pay-div{
+        height: 2px;
+        background-color: #cf4f1f !important;
+    }
+  .sdpreloader{
+      margin-bottom: 130px;
+      margin-top: 20px;
+      margin-left: 460px;
+  }
+.notfound-component {
+    /* The image used */
+    background-image: url(../not-found.gif);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .tax-label{
+    /* width: 500px !important; */
+  }
+  .cursor-pointer{
+      cursor: pointer
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c4c3c3;
+    border-radius: 10rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.navLink{
+  color: inherit;
+}
+.navLink:hover{
+  text-decoration: none;
+  color: inherit !important;
+}
+.changepasswordbtn{
+  margin-bottom: 10px;
+}

@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.text-amalitech {
+  color: #cf4f1f
+}
+.btn-amalitech {
+  background-color: #cf4f1f !important;
+  color: #ffffff !important;
+}
+.greyedBtn {
+  background-color: #f5f6fa;
+  color: #ffffff !important
+}
+.greyedBtn:hover {
+  background-color: #cf4f1f !important;
+  color: #ffffff;
+}
+.valid::before {
+  display: inline;
+  content: "⚠ ";
+}
+.cardColor {
+  background-color: #f0f0f7;
+}
+
+.cardThumbnail {
+  height: 35vh;
+  cursor: pointer;
+}
+
+.cardThumbnailMain{
+  height: 95%;
+}
+
+.cardThumbnailMainOverlay{
+    height:95%;
+    width: 92.7%;
+    visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.cardThumbnail:hover .cardThumbnailMainOverlay{
+  visibility: visible;
+}
+
+.cardThumbnailName{
+  height: 5%;
+}
+
+.cardThumbnailTitle {
+  height: 4.5vh;
+  background-color: #cf4f1f;
+  color: #ffffff;
+}
+
+.cardThumbnailContent {
+  font-size: 0.7vw;
+  float: left;
+}
+
+.cardThumbnailEllips{
+  width: 45%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sideNavIconColor{
+  color: #ffffff;
+}
+
+.dTable{
+  overflow: auto;
+display: block;
+table-layout: auto;
+}
+
+.masterPayroll{
+  width: 100%;
+}
+
+.cardStyling {
+  width: 40%;
+  height: 50vh;
+  background-color: '';
+  margin: 0 auto;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.formBackground {
+  background-color: #f0f0f7;
+}
+
+.voucherTable {
+  width: 96%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.bBottom {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.bRight {
+  border-right: 1px solid black;
+}
+
+/* THIS STYLING IS FOR THE PAY SLIP PAGE (PAYSLIP CLASS COMPONENT) */
+.payslipStyle{
+  font-family: 'Times New Roman';
+}
+/* END */
+
+@media screen and (max-width: 1366px) {
+  .masterPayroll {
+    width: 70%;
+  }
+
+  .cardThumbnailMainOverlay{
+    width: 89%;
+  }
+
+  .cardThumbnailEllips{
+    width: 38%;
+  }
+
+  .cardThumbnail {
+    height: 41vh;
+  }
+
+}
+
+@media screen and (max-width: 958px) {
+  .cardStyling {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .cardStyling {
+    width: 80%;
+  }
+  
+}
